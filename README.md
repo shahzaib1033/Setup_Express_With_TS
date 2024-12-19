@@ -15,7 +15,9 @@ npx tsc --init
     "target": "ES6",
     "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "module": "NodeNext"
   }
 }
 
