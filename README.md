@@ -17,7 +17,8 @@ npx tsc --init
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "nodenext",
-    "module": "NodeNext"
+    "module": "NodeNext",
+    "resolveJsonModule": true,
   }
 }
 
